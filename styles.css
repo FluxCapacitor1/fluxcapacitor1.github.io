@@ -1,0 +1,153 @@
+/* Updated styles.css with background color for tabs and left-aligned navigation */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #949494;
+}
+
+header {
+    background-color: #151617;
+    color: white;
+    text-align: center;
+    padding: 0.75cm;
+}
+
+nav {
+    background-color: #151617;
+    color: white;
+    padding: 0.5cm;
+    text-align: left; /* Align navigation to the left */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start; /* Align items to the start (left) */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: #151617; /* Background color for tabs */
+}
+
+nav a:hover {
+    background-color: #5d6167; /* Darker color on hover */
+}
+
+#content > section {
+    display: none;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+#content h2 {
+    border-bottom: 2px solid #1e3c72;
+    padding-bottom: 10px;
+}
+
+#content h3 {
+    color: #1e3c72;
+}
+
+#content h4 {
+    color: #1e3c72;
+}
+
+#content p {
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #1e3c72;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Portfolio styles */
+#portfolio {
+    background-color: #f0f8ff;
+}
+
+#portfolio a {
+    color: #007BFF;
+}
+
+#portfolio a:hover {
+    text-decoration: underline;
+}
+
+/* GitHub link styles */
+#portfolio h3 {
+    color: #1e3c72;
+    margin-top: 20px;
+}
+
+#portfolio p {
+    color: #555;
+}
+
+
+/* Contact styles */
+#contact form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#contact form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+#contact form input,
+#contact form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+#contact form button {
+    background-color: #565e70;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact form button:hover {
+    background-color: #9ea4af;
+}
+
+/* CV/Resume styles */
+#cv form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#cv form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
