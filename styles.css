@@ -8,14 +8,14 @@ body {
 }
 
 header {
-    background-color: #151617;
+    background-color: #0958a8;
     color: white;
     text-align: center;
     padding: 0.75cm;
 }
 
 nav {
-    background-color: #151617;
+    background-color: #296eb3;
     color: white;
     padding: 0.5cm;
     text-align: left; /* Align navigation to the left */
@@ -39,11 +39,11 @@ nav a {
     color: white;
     padding: 8px 12px;
     border-radius: 5px;
-    background-color: #151617; /* Background color for tabs */
+    background-color: #296eb3; /* Background color for tabs */
 }
 
 nav a:hover {
-    background-color: #5d6167; /* Darker color on hover */
+    background-color: #0b62b9; /* Darker color on hover */
 }
 
 #content > section {
@@ -73,7 +73,7 @@ nav a:hover {
 }
 
 footer {
-    background-color: #151617;
+    background-color: #0958a8;
     color: white;
     text-align: center;
     padding: 1em;
